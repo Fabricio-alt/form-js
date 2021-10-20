@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="structure">
+      <form id="form-user">
+        <input type="text" name="name" placeholder="Nome" value="" required>
+        <input type="email" name="email" placeholder="E-mail" value="" required>
+        <input type="number" name="phone" placeholder="Celular" minlength="11" value="" required>
+        <input type="password" name="password" placeholder="Senha" minlength="6" value="" required>
+        <button type="submit">Cadastrar</button>
+      </form>
+      <div class="img-container">
+        <img src="images/img-background.png" alt="Imagem do formulário">
+      </div>
+    </div>
+    <script src="src/Models/User.js"></script>
+    <script src="src/Controllers/UserControllers.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
